@@ -1,654 +1,806 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plenit</title>
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <!-- custom css  -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Plenit</title>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+        <!-- custom css  -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
 
-  <body>
-    <main>
-      <!-- Upper nav -->
+    <body>
+        <main class="position-relative">
+            <header>
+                <!-- Upper nav -->
 
-      <div class="text-white" style="background-color: #97004f">
-        <div class="container py-2">
-          <div class="row justify-content-end">
-            <div
-              class="col-12 col-md-auto d-flex align-items-center flex-wrap justify-content-end gap-3 text-center text-md-end nav-text"
-            >
-              <a
-                href="#"
-                class="text-decoration-none d-inline-flex align-items-center text-white fs-6"
-              >
-                <img
-                  src="./assets/images/profile-circle.svg"
-                  alt="profile"
-                  class="me-2 up-nav"
-                />
-                <span class="d-sm-inline-block d-none">Soy Cliente</span>
-              </a>
-              <a
-                href="#"
-                class="text-decoration-none d-inline-flex align-items-center text-white fs-6"
-              >
-                <img
-                  src="./assets/images/briefcase.svg"
-                  alt="profile"
-                  class="me-2 up-nav"
-                />
-                <span class="d-sm-inline-block d-none">Soy Agente</span>
-              </a>
-              <a
-                href="#"
-                class="text-decoration-none d-inline-flex align-items-center text-white fs-6"
-              >
-                <img
-                  src="./assets/images/profile-2user.svg"
-                  alt="profile"
-                  class="me-2 up-nav"
-                />
-                <span class="d-sm-inline-block d-none">Soy Proveedor</span>
-              </a>
-              <a
-                href="#"
-                class="text-decoration-none d-inline-flex align-items-center text-white fs-6"
-              >
-                <img
-                  src="./assets/images/document-text.svg"
-                  alt="profile"
-                  class="me-2 up-nav"
-                />
-                <span class="d-sm-inline-block d-none">Pago de Póliza</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+                <div class="text-white" style="background-color: #97004f">
+                    <div class="container py-2">
+                        <div class="row justify-content-end">
+                            <div
+                                class="col-12 col-md-auto d-flex align-items-center flex-wrap justify-content-end gap-3 text-center text-md-end nav-text">
+                                <a
+                                    href="#"
+                                    class="text-decoration-none d-inline-flex align-items-center text-white fs-6">
+                                    <img
+                                        src="./assets/images/profile-circle.svg"
+                                        alt="profile"
+                                        class="me-2 up-nav" />
+                                    <span class="d-sm-inline-block d-none">Soy
+                                        Cliente</span>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="text-decoration-none d-inline-flex align-items-center text-white fs-6">
+                                    <img
+                                        src="./assets/images/briefcase.svg"
+                                        alt="profile"
+                                        class="me-2 up-nav" />
+                                    <span class="d-sm-inline-block d-none">Soy
+                                        Agente</span>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="text-decoration-none d-inline-flex align-items-center text-white fs-6">
+                                    <img
+                                        src="./assets/images/profile-2user.svg"
+                                        alt="profile"
+                                        class="me-2 up-nav" />
+                                    <span class="d-sm-inline-block d-none">Soy
+                                        Proveedor</span>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="text-decoration-none d-inline-flex align-items-center text-white fs-6">
+                                    <img
+                                        src="./assets/images/document-text.svg"
+                                        alt="profile"
+                                        class="me-2 up-nav" />
+                                    <span class="d-sm-inline-block d-none">Pago
+                                        de
+                                        Póliza</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Lower nav -->
-      <div class="lower-nav">
-        <nav
-          class="navbar py-0 justify-content-between align-items-center navbar-expand-lg"
-        >
-          <div class="container">
-            <a class="navbar-brand py-0" href="./index.html">
-              <div class="logo">
-                <img src="./assets/images/logo.png" alt="logo" />
-              </div>
-            </a>
-            <button
-              class="navbar-toggler p-2 border-0 shadow-none"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo01"
-              aria-controls="navbarTogglerDemo01"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <img src="./assets/images/bars-solid.svg" alt="Menu" height="20">
-            </button>
-            <div class="collapse navbar-collapse pb-sm-0 pb-3" id="navbarTogglerDemo01">
-              <ul class="navbar-nav mx-auto nav-links mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link purple" href="#">Nuestra Historia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link purple" href="#">Nuestros Seguros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link purple" href="#">Usa tu Póliza</a>
-                </li>
-              </ul>
-              <a href="#" class="btn orange">
-                <svg
-                  width="24"
-                  class="me-2 align-middle"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
-                    stroke="white"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                  />
-                  <path
-                    d="M18.5 9C18.5 8.4 18.03 7.48 17.33 6.73C16.69 6.04 15.84 5.5 15 5.5"
-                    stroke="white"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M22 9C22 5.13 18.87 2 15 2"
-                    stroke="white"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-                800 123 4567
-              </a>
-            </div>
-          </div>
-        </nav>
-      </div>
+                <!-- Lower nav -->
+                <div class="lower-nav">
+                    <nav
+                        class="navbar py-0 justify-content-between align-items-center navbar-expand-lg">
+                        <div class="container">
+                            <a class="navbar-brand py-0" href="./index.html">
+                                <div class="logo">
+                                    <img src="./assets/images/logo.png"
+                                        alt="logo" />
+                                </div>
+                            </a>
+                            <button
+                                class="navbar-toggler p-2 border-0 shadow-none"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo01"
+                                aria-controls="navbarTogglerDemo01"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <img src="./assets/images/bars-solid.svg"
+                                    alt="Menu"
+                                    height="20">
+                            </button>
+                            <div class="collapse navbar-collapse pb-sm-0 pb-3"
+                                id="navbarTogglerDemo01">
+                                <ul
+                                    class="navbar-nav mx-auto nav-links mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link purple"
+                                            href="#history">Nuestra
+                                            Historia</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link purple"
+                                            href="#insurance">Nuestros
+                                            Seguros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link purple"
+                                            href="#policy">Usa tu
+                                            Póliza</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn orange">
+                                    <svg
+                                        width="24"
+                                        class="me-2 align-middle"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+                                            stroke="white"
+                                            stroke-width="1.5"
+                                            stroke-miterlimit="10" />
+                                        <path
+                                            d="M18.5 9C18.5 8.4 18.03 7.48 17.33 6.73C16.69 6.04 15.84 5.5 15 5.5"
+                                            stroke="white"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M22 9C22 5.13 18.87 2 15 2"
+                                            stroke="white"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    800 123 4567
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
 
-      <section class="home-hero-sec position-relative">
-        <div class="container">
-          <div class="d-flex flex-lg-row flex-column">
-            <div class="home-hero-content">
-              <div class="d-flex flex-column gap-md-5 gap-4">
-                <h2 class="hh-text mb-0">
-                  Te queremos en <span class="yellow">plenitud,</span> de
-                  corazón podemos ayudarte.
-                </h2>
-                <div>
-                  <a href="#" class="btn btn-hero">
-                    Condiciones Generales
-                    <svg
-                      width="30"
-                      height="30"
-                      viewBox="0 0 30 30"
-                      fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <circle cx="15" cy="15" r="15" fill="currentColor" />
-                      <path
-                        d="M12.1465 19.6467L16.793 15.0002L12.1465 10.3537C12.0554 10.2594 12.005 10.1331 12.0062 10.002C12.0073 9.8709 12.0599 9.7455 12.1526 9.65279C12.2453 9.56009 12.3707 9.50751 12.5018 9.50637C12.6329 9.50523 12.7592 9.55562 12.8535 9.6467L17.8535 14.6467C17.8999 14.6931 17.9368 14.7482 17.9619 14.8089C17.987 14.8695 18 14.9345 18 15.0002C18 15.0659 17.987 15.1309 17.9619 15.1915C17.9368 15.2522 17.8999 15.3073 17.8535 15.3537L12.8535 20.3537C12.7592 20.4448 12.6329 20.4952 12.5018 20.494C12.3707 20.4929 12.2453 20.4403 12.1526 20.3476C12.0599 20.2549 12.0073 20.1295 12.0062 19.9984C12.005 19.8673 12.0554 19.741 12.1465 19.6467Z"
-                        fill="#EE4A4C"
-                      />
-                    </svg>
-                  </a>
+            <section class="home-hero-sec position-relative">
+                <div class="container">
+                    <div class="d-flex flex-lg-row flex-column">
+                        <div class="home-hero-content">
+                            <div class="d-flex flex-column gap-md-5 gap-4">
+                                <h2 class="hh-text mb-0">
+                                    Te queremos en <span
+                                        class="yellow">plenitud,</span> de
+                                    corazón podemos ayudarte.
+                                </h2>
+                                <div>
+                                    <a href="#" class="btn btn-hero">
+                                        Condiciones Generales
+                                        <svg
+                                            width="30"
+                                            height="30"
+                                            viewBox="0 0 30 30"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M12.1465 19.6467L16.793 15.0002L12.1465 10.3537C12.0554 10.2594 12.005 10.1331 12.0062 10.002C12.0073 9.8709 12.0599 9.7455 12.1526 9.65279C12.2453 9.56009 12.3707 9.50751 12.5018 9.50637C12.6329 9.50523 12.7592 9.55562 12.8535 9.6467L17.8535 14.6467C17.8999 14.6931 17.9368 14.7482 17.9619 14.8089C17.987 14.8695 18 14.9345 18 15.0002C18 15.0659 17.987 15.1309 17.9619 15.1915C17.9368 15.2522 17.8999 15.3073 17.8535 15.3537L12.8535 20.3537C12.7592 20.4448 12.6329 20.4952 12.5018 20.494C12.3707 20.4929 12.2453 20.4403 12.1526 20.3476C12.0599 20.2549 12.0073 20.1295 12.0062 19.9984C12.005 19.8673 12.0554 19.741 12.1465 19.6467Z"
+                                                fill="#EE4A4C" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="hh-img mx-lg-0 mx-lg-auto me-auto d-flex flex-column align-items-start">
+                            <img
+                                src="./assets/images/family.png"
+                                alt="Family"
+                                class="h-100 img-fluid" />
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div
-              class="hh-img mx-lg-0 mx-lg-auto me-auto d-flex flex-column align-items-start"
-            >
-              <img
-                src="./assets/images/family.png"
-                alt="Family"
-                class="h-100 img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="position-absolute hh-blocks d-flex flex-column justify-content-end align-items-end ms-auto"
-        >
-          <img src="./assets/images/Health Insurance Icon.png" alt="Heart" />
-          <img src="./assets/images/Lock Icon.png" alt="Heart" />
-        </div>
-      </section>
-      <section class="home-sec-2 py-xl-5 py-4 my-4">
-        <div class="container position-relative py-lg-5">
-          <div class="row align-items-center">
-            <div class="col-lg-5 col-12 text-center">
-              <img
-                src="./assets/images/stats-img.png"
-                alt="Stats"
-                class="w-100 img-fluid stats-img"
-              />
-            </div>
-            <div class="col-lg-7 col-12 py-lg-0 py-3">
-              <div class="ps-xl-5 px-lg-4 px-3 hs2-content d-flex flex-column gap-4 py-lg-0 py-4">
-                <div class="text-start">
-                  <span class="ser-btn d-flex px-4 text-decoration-none">
-                    <div class="d-flex align-items-center gap-2 px-2">
-                      <svg
-                        width="25"
-                        height="24"
-                        viewBox="0 0 25 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g clip-path="url(#clip0_2002_164)">
-                          <path
-                            d="M20.887 14.317C20.0951 14.0411 19.4689 13.4328 19.1695 12.6487L18.997 12.1967H17.0532C16.3099 10.3189 14.8048 8.82294 12.9216 8.09198C14.0555 7.27606 14.7949 5.94525 14.7949 4.4447C14.7949 1.9682 12.78 -0.046875 10.3033 -0.046875C7.82666 -0.046875 5.81177 1.9682 5.81177 4.4447C5.81177 5.94525 6.55115 7.27606 7.68512 8.09253C4.97388 9.14447 3.04688 11.7814 3.04688 14.8601V18.9976H11.5728C11.7636 19.5412 12.0114 20.0665 12.3142 20.5631C13.108 21.8668 14.244 22.9268 15.6 23.6274L16.2299 23.9531L16.8596 23.6274C18.2153 22.9268 19.3519 21.8668 20.1451 20.5631C20.939 19.2596 21.3583 17.7636 21.3583 16.2374V14.4814L20.887 14.317ZM19.9526 16.2374C19.9526 18.8275 18.5266 21.1762 16.2299 22.3705C14.7931 21.6231 13.697 20.4245 13.0776 18.9976C12.8831 18.5491 12.7354 18.0782 12.6394 17.5917C12.5517 17.1511 12.5068 16.6981 12.5068 16.2374V15.4479C13.3193 15.0504 13.9816 14.4047 14.4 13.6024H18.0593C18.4779 14.4047 19.1404 15.0504 19.9526 15.4479V16.2374ZM7.21747 4.4447C7.21747 2.74329 8.60175 1.35901 10.3033 1.35901C12.0049 1.35901 13.3892 2.74329 13.3892 4.4447C13.3892 6.1463 12.0049 7.53058 10.3033 7.53058C8.60175 7.53058 7.21747 6.1463 7.21747 4.4447ZM4.45276 17.5917V14.8601C4.45276 11.6342 7.07739 9.00952 10.3033 9.00952C12.5706 9.00952 14.541 10.3063 15.5114 12.1967H13.4626L13.2903 12.6487C12.9908 13.4328 12.3647 14.0411 11.5728 14.317L11.101 14.4814V16.2374C11.101 16.693 11.1385 17.1456 11.2125 17.5917H4.45276Z"
-                            fill="#EE4A4C"
-                          />
-                          <path
-                            d="M17.5598 15.7396L16.1539 17.0986L15.6854 17.5515L14.54 16.4698L13.5747 17.4918L13.6811 17.5921L15.1694 18.998L15.6965 19.4957L16.2116 18.998L17.5598 17.6948L18.8161 16.4807L17.8391 15.4697L17.5598 15.7396Z"
-                            fill="#EE4A4C"
-                          />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_2002_164">
-                            <rect
-                              width="24"
-                              height="24"
-                              fill="white"
-                              transform="translate(0.1875)"
-                            />
-                          </clipPath>
-                        </defs>
-                      </svg>
+                <div
+                    class="position-absolute hh-blocks d-flex flex-column justify-content-end align-items-end ms-auto">
+                    <img src="./assets/images/Health Insurance Icon.png"
+                        alt="Heart" />
+                    <img src="./assets/images/Lock Icon.png" alt="Heart" />
+                </div>
+            </section>
+            <section id="history" class="home-sec-2 py-xl-5 py-4 my-4">
+                <div class="container position-relative py-lg-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-12 text-center">
+                            <img
+                                src="./assets/images/stats-img.png"
+                                alt="Stats"
+                                class="w-100 img-fluid stats-img" />
+                        </div>
+                        <div class="col-lg-7 col-12 py-lg-0 py-3">
+                            <div
+                                class="ps-xl-5 px-lg-4 px-3 hs2-content d-flex flex-column gap-4 py-lg-0 py-4">
+                                <div class="text-start">
+                                    <span
+                                        class="ser-btn d-flex px-4 text-decoration-none">
+                                        <div
+                                            class="d-flex align-items-center gap-2 px-2">
+                                            <svg
+                                                width="25"
+                                                height="24"
+                                                viewBox="0 0 25 24"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g
+                                                    clip-path="url(#clip0_2002_164)">
+                                                    <path
+                                                        d="M20.887 14.317C20.0951 14.0411 19.4689 13.4328 19.1695 12.6487L18.997 12.1967H17.0532C16.3099 10.3189 14.8048 8.82294 12.9216 8.09198C14.0555 7.27606 14.7949 5.94525 14.7949 4.4447C14.7949 1.9682 12.78 -0.046875 10.3033 -0.046875C7.82666 -0.046875 5.81177 1.9682 5.81177 4.4447C5.81177 5.94525 6.55115 7.27606 7.68512 8.09253C4.97388 9.14447 3.04688 11.7814 3.04688 14.8601V18.9976H11.5728C11.7636 19.5412 12.0114 20.0665 12.3142 20.5631C13.108 21.8668 14.244 22.9268 15.6 23.6274L16.2299 23.9531L16.8596 23.6274C18.2153 22.9268 19.3519 21.8668 20.1451 20.5631C20.939 19.2596 21.3583 17.7636 21.3583 16.2374V14.4814L20.887 14.317ZM19.9526 16.2374C19.9526 18.8275 18.5266 21.1762 16.2299 22.3705C14.7931 21.6231 13.697 20.4245 13.0776 18.9976C12.8831 18.5491 12.7354 18.0782 12.6394 17.5917C12.5517 17.1511 12.5068 16.6981 12.5068 16.2374V15.4479C13.3193 15.0504 13.9816 14.4047 14.4 13.6024H18.0593C18.4779 14.4047 19.1404 15.0504 19.9526 15.4479V16.2374ZM7.21747 4.4447C7.21747 2.74329 8.60175 1.35901 10.3033 1.35901C12.0049 1.35901 13.3892 2.74329 13.3892 4.4447C13.3892 6.1463 12.0049 7.53058 10.3033 7.53058C8.60175 7.53058 7.21747 6.1463 7.21747 4.4447ZM4.45276 17.5917V14.8601C4.45276 11.6342 7.07739 9.00952 10.3033 9.00952C12.5706 9.00952 14.541 10.3063 15.5114 12.1967H13.4626L13.2903 12.6487C12.9908 13.4328 12.3647 14.0411 11.5728 14.317L11.101 14.4814V16.2374C11.101 16.693 11.1385 17.1456 11.2125 17.5917H4.45276Z"
+                                                        fill="#EE4A4C" />
+                                                    <path
+                                                        d="M17.5598 15.7396L16.1539 17.0986L15.6854 17.5515L14.54 16.4698L13.5747 17.4918L13.6811 17.5921L15.1694 18.998L15.6965 19.4957L16.2116 18.998L17.5598 17.6948L18.8161 16.4807L17.8391 15.4697L17.5598 15.7396Z"
+                                                        fill="#EE4A4C" />
+                                                </g>
+                                                <defs>
+                                                    <clippath
+                                                        id="clip0_2002_164">
+                                                        <rect
+                                                            width="24"
+                                                            height="24"
+                                                            fill="white"
+                                                            transform="translate(0.1875)" />
+                                                    </clippath>
+                                                </defs>
+                                            </svg>
 
-                      <span class="lh-1">Nosotros</span>
+                                            <span class="lh-1">Nosotros</span>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="d-flex flex-column gap-4">
+                                    <h4 class="hs2-title">
+                                        Plenit, siempre <span
+                                            class="coral">contigo...</span>
+                                    </h4>
+                                    <p class="hs2-text">
+                                        En Plenit, creemos que la salud, la
+                                        protección y la
+                                        tranquilidad deben estar al alcance de
+                                        todos. Desde nuestros
+                                        inicios, trabajamos con el corazón para
+                                        acompañar a cada
+                                        persona, familia o empresa que confía en
+                                        nosotros. Nuestra
+                                        historia es la de miles de asegurados
+                                        que hoy viven en
+                                        plenitud.
+                                    </p>
+                                </div>
+                                <div
+                                    class="d-flex flex-wrap gap-sm-4 gap-2 justify-content-sm-start justify-content-evenly">
+                                    <div
+                                        class="d-flex flex-column text-center align-items-center gap-2 me-sm-2">
+                                        <span class="stat-number">
+                                            10+
+                                        </span>
+                                        <span class="stat-text">
+                                            Años de Experiencia
+                                        </span>
+                                    </div>
+                                    <div
+                                        class="d-flex flex-column text-center align-items-center gap-2">
+                                        <span class="stat-number">
+                                            99%
+                                        </span>
+                                        <span class="stat-text">
+                                            Clientes Satisfechos
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </span>
                 </div>
-                <div class="d-flex flex-column gap-4">
-                  <h4 class="hs2-title">
-                    Plenit, siempre <span class="coral">contigo...</span>
-                  </h4>
-                  <p class="hs2-text">
-                    En Plenit, creemos que la salud, la protección y la
-                    tranquilidad deben estar al alcance de todos. Desde nuestros
-                    inicios, trabajamos con el corazón para acompañar a cada
-                    persona, familia o empresa que confía en nosotros. Nuestra
-                    historia es la de miles de asegurados que hoy viven en
-                    plenitud.
-                  </p>
-                </div>
-                <div class="d-flex flex-wrap gap-sm-4 gap-2 justify-content-sm-start justify-content-evenly">
-                  <div class="d-flex flex-column text-center align-items-center gap-2 me-sm-2">
-                    <span class="stat-number">
-                      10+
-                    </span>
-                    <span class="stat-text">
-                      Años de Experiencia
-                    </span>
-                  </div>
-                  <div class="d-flex flex-column text-center align-items-center gap-2">
-                    <span class="stat-number">
-                      99%
-                    </span>
-                    <span class="stat-text">
-                      Clientes Satisfechos
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="container">
-          <div class="outer d-flex flex-column gap-80">
-            <div class="service d-flex flex-column gap-5">
-              <!-- button  -->
-              <div class="text-center">
-                <span
-                  class="d-flex d-inline-flex ser-btn gap-2 px-4 text-decoration-none"
-                  ><img
-                    src="./assets/images/surface1.svg"
-                    alt="icon"
-                    class="ser-icon"
-                  />
-                  Nuestros Seguros
-                </span>
-              </div>
-              <!-- heading  -->
-              <div>
-                <div class="ser-heading">
-                  <h2 class="fw-bold mb-0 text-center">
-                    <span class="head-color">Coberturas</span>para ti, tu
-                    familia o tu empresa
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div class="gap-120 d-flex flex-column">
-              <!-- Individual -->
-              <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12">
-                  <img
-                    src="./assets/images/person1.png"
-                    alt
-                    class="w-100 img-fluid"
-                  />
-                </div>
-                <div class="col-lg-6 col-md-12 py-3">
-                  <div class="gap-40 d-flex flex-column px-xl-5 py-4">
-                    <div class="gap-4 d-flex flex-column">
-                      <div>
-                        <img
-                          src="./assets/images/Individual Insurance.svg"
-                          alt="icon"
-                          class="ins-icon"
-                        />
-                      </div>
-                      <div class="heading">
-                        <h2 class="fw-bold mb-0">
-                          Seguros
-                          <span class="head-color">Individuales</span>
-                        </h2>
-                      </div>
-                      <div class="gap-4 d-flex flex-column">
-                        <div class=" ">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
-                            <div>
-                              <p class="para1">
-                                Gastos Médicos Mayores Individual
-                              </p>
-                              <p class="para2">
-                                Protección integral para tu salud, con atención
-                                hospitalaria y consultas especializadas.
-                              </p>
+            </section>
+            <section id="insurance">
+                <div class="container">
+                    <div class="outer d-flex flex-column gap-80">
+                        <div class="service d-flex flex-column gap-5">
+                            <!-- button  -->
+                            <div class="text-center">
+                                <span
+                                    class="d-flex d-inline-flex ser-btn gap-2 px-4 text-decoration-none"><img
+                                        src="./assets/images/surface1.svg"
+                                        alt="icon"
+                                        class="ser-icon" />
+                                    Nuestros Seguros
+                                </span>
                             </div>
-                          </div>
-                        </div>
-                        <div class="p-2 border rounded mb-2">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
+                            <!-- heading  -->
                             <div>
-                              <p class="para1">ALAIV Individual</p>
-                              <p class="para2">
-                                Acceso a servicios de salud de forma asequible,
-                                con cobertura adaptada a tu estilo de vida.
-                              </p>
+                                <div class="ser-heading">
+                                    <h2 class="fw-bold mb-0 text-center">
+                                        <span
+                                            class="head-color">Coberturas</span>para
+                                        ti, tu
+                                        familia o tu empresa
+                                    </h2>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                        <div class="p-2 border rounded">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
-                            <div>
-                              <p class="para1">
-                                Accidentes Personales Individual
-                              </p>
-                              <p class="para2">
-                                Apoyo inmediato ante imprevistos, para que un
-                                accidente no cambie tu rumbo.
-                              </p>
+                        <div class="gap-120 d-flex flex-column">
+                            <!-- Individual -->
+                            <div id="individual" class="row align-items-center">
+                                <div class="col-lg-6 col-md-12">
+                                    <img
+                                        src="./assets/images/person1.png"
+                                        alt
+                                        class="w-100 img-fluid" />
+                                </div>
+                                <div class="col-lg-6 col-md-12 py-3">
+                                    <div
+                                        class="gap-40 d-flex flex-column px-xl-5 py-4">
+                                        <div class="gap-4 d-flex flex-column">
+                                            <div>
+                                                <img
+                                                    src="./assets/images/Individual Insurance.svg"
+                                                    alt="icon"
+                                                    class="ins-icon" />
+                                            </div>
+                                            <div class="heading">
+                                                <h2 class="fw-bold mb-0">
+                                                    Seguros
+                                                    <span
+                                                        class="head-color">Individuales</span>
+                                                </h2>
+                                            </div>
+                                            <div
+                                                class="gap-4 d-flex flex-column">
+                                                <div
+                                                    class="border rounded p-2 mb-2 ">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p class="para1">
+                                                                Gastos Médicos
+                                                                Mayores
+                                                                Individual
+                                                            </p>
+                                                            <p class="para2">
+                                                                Protección
+                                                                integral para tu
+                                                                salud, con
+                                                                atención
+                                                                hospitalaria y
+                                                                consultas
+                                                                especializadas.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="p-2 border rounded mb-2">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p
+                                                                class="para1">ALAIV
+                                                                Individual</p>
+                                                            <p class="para2">
+                                                                Acceso a
+                                                                servicios de
+                                                                salud de forma
+                                                                asequible,
+                                                                con cobertura
+                                                                adaptada a tu
+                                                                estilo de vida.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="p-2 border rounded">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p class="para1">
+                                                                Accidentes
+                                                                Personales
+                                                                Individual
+                                                            </p>
+                                                            <p class="para2">
+                                                                Apoyo inmediato
+                                                                ante
+                                                                imprevistos,
+                                                                para que un
+                                                                accidente no
+                                                                cambie tu rumbo.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="individual.html"
+                                                class="btn connect lh-1">Conocer
+                                                más</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
+                            <!-- collective -->
+                            <div
+                                class="row align-items-center flex-lg-row-reverse">
+                                <div class="col-lg-6 col-md-12">
+                                    <img
+                                        src="./assets/images/person3.png"
+                                        alt
+                                        class="w-100 img-fluid" />
+                                </div>
+                                <div class="col-lg-6 col-md-12 py-3">
+                                    <div
+                                        class="gap-40 d-flex flex-column px-xl-5 py-4">
+                                        <div class="gap-4 d-flex flex-column">
+                                            <div>
+                                                <img
+                                                    src="./assets/images/Collective Insurance.svg"
+                                                    alt="icon"
+                                                    class="ins-icon" />
+                                            </div>
+                                            <div class="heading">
+                                                <h2 class="fw-bold mb-0">
+                                                    Seguros <span
+                                                        class="head-color">Colectivos</span>
+                                                </h2>
+                                            </div>
+                                            <div
+                                                class="gap-4 d-flex flex-column">
+                                                <div class="p-2 border rounded">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p class="para1">
+                                                                Gastos Médicos
+                                                                Mayores
+                                                                Colectivo
+                                                            </p>
+                                                            <p class="para2">
+                                                                Ideal para
+                                                                empresas que
+                                                                desean cuidar a
+                                                                su
+                                                                talento con
+                                                                cobertura
+                                                                amplia.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="p-2 border rounded mb-2">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p
+                                                                class="para1">ALAIV
+                                                                Colectivo</p>
+                                                            <p class="para2">
+                                                                Cobertura
+                                                                accesible para
+                                                                grupos, con
+                                                                beneficios
+                                                                pensados en
+                                                                bienestar
+                                                                colectivo.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="p-2 border rounded mb-2">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p class="para1">
+                                                                Accidentes
+                                                                Personales
+                                                                Colectivo
+                                                            </p>
+                                                            <p class="para2">
+                                                                Apoyo a
+                                                                empleados ante
+                                                                incidentes
+                                                                inesperados,
+                                                                dentro y fuera
+                                                                del trabajo.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="p-2 border rounded">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p
+                                                                class="para1">Accidentes
+                                                                Personales
+                                                                Escolar</p>
+                                                            <p class="para2">
+                                                                Seguridad para
+                                                                niñas, niños y
+                                                                jóvenes en sus
+                                                                actividades
+                                                                escolares y
+                                                                deportivas.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="collective.html"
+                                                class="btn connect lh-1">Conocer
+                                                más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- last  -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-12">
+                                    <img
+                                        src="./assets/images/person2.png"
+                                        alt
+                                        class="w-100 img-fluid" />
+                                </div>
+                                <div class="col-lg-6 col-md-12 py-3">
+                                    <div
+                                        class="gap-40 d-flex flex-column px-xl-5 py-4">
+                                        <div class="gap-4 d-flex flex-column">
+                                            <div>
+                                                <img
+                                                    src="./assets/images/Standardized Benefits.svg"
+                                                    alt="icon"
+                                                    class="ins-icon" />
+                                            </div>
+                                            <div class="heading">
+                                                <h2 class="fw-bold mb-0">
+                                                    Básicos
+                                                    <span
+                                                        class="head-color">Estandarizados</span>
+                                                </h2>
+                                            </div>
+                                            <div
+                                                class="gap-4 d-flex flex-column para-text">
+                                                <div
+                                                    class="p-2 border rounded mb-2">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p class="para1">PBE
+                                                                Gastos
+                                                                Médicos</p>
+                                                            <p class="para2">
+                                                                Cobertura
+                                                                esencial con las
+                                                                condiciones que
+                                                                exige
+                                                                la normatividad
+                                                                mexicana.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="p-2 border rounded mb-2">
+                                                    <div class="d-flex gap-2">
+                                                        <img
+                                                            src="./assets/images/tick-circle.svg"
+                                                            alt="icon"
+                                                            class="tick" />
+                                                        <div>
+                                                            <p class="para1">PBE
+                                                                Accidentes
+                                                                Personales</p>
+                                                            <p class="para2">
+                                                                Protección
+                                                                accesible ante
+                                                                eventos
+                                                                inesperados,
+                                                                de fácil
+                                                                contratación.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="standard.html"
+                                                class="btn connect lh-1">Conocer
+                                                más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div>
-                      <a href="individual.html" class="btn connect lh-1"
-                        >Conocer más</a
-                      >
-                    </div>
-                  </div>
                 </div>
-              </div>
-              <!-- collective -->
-              <div class="row align-items-center flex-lg-row-reverse">
-                <div class="col-lg-6 col-md-12">
-                  <img
-                    src="./assets/images/person3.png"
-                    alt
-                    class="w-100 img-fluid"
-                  />
-                </div>
-                <div class="col-lg-6 col-md-12 py-3">
-                  <div class="gap-40 d-flex flex-column px-xl-5 py-4">
-                    <div class="gap-4 d-flex flex-column">
-                      <div>
-                        <img
-                          src="./assets/images/Collective Insurance.svg"
-                          alt="icon"
-                          class="ins-icon"
-                        />
-                      </div>
-                      <div class="heading">
-                        <h2 class="fw-bold mb-0">
-                          Seguros <span class="head-color">Colectivos</span>
-                        </h2>
-                      </div>
-                      <div class="gap-4 d-flex flex-column">
-                        <div class="p-2 border rounded">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
-                            <div>
-                              <p class="para1">
-                                Gastos Médicos Mayores Colectivo
-                              </p>
-                              <p class="para2">
-                                Ideal para empresas que desean cuidar a su
-                                talento con cobertura amplia.
-                              </p>
+            </section>
+            <section id="policy" class="tools">
+                <div class="container">
+                    <div class="user-policy d-flex flex-column gap-80">
+                        <div>
+                            <div class="service d-flex flex-column gap-40">
+                                <!-- button  -->
+                                <div class="text-center">
+                                    <span
+                                        class="d-flex d-inline-flex ser-btn gap-2 px-4 text-decoration-none"><img
+                                            src="./assets/images/surface1.svg"
+                                            alt="icon"
+                                            class="ser-icon" />
+                                        ¿Cómo funciona?
+                                    </span>
+                                </div>
+                                <!-- heading  -->
+                                <div>
+                                    <div class=" d-flex flex-column gap-2">
+                                        <h2
+                                            class="fw-bold mb-0 text-center ser-heading">
+                                            ¿Qué hacer en caso de<span
+                                                class="head-color">
+                                                siniestro?</span>
+                                        </h2>
+                                        <p class="para2 text-center">Te guiamos
+                                            paso a paso para que actives tu
+                                            cobertura de forma rápida y sin
+                                            complicaciones.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                        <div class="p-2 border rounded mb-2">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
-                            <div>
-                              <p class="para1">ALAIV Colectivo</p>
-                              <p class="para2">
-                                Cobertura accesible para grupos, con beneficios
-                                pensados en bienestar colectivo.
-                              </p>
+                        <div class="user-tools row">
+                            <div
+                                class="tool-container  col-lg-3 col-md-4 col-sm-6 ">
+                                <div
+                                    class="d-flex flex-column gap-2 inner-container text-center">
+                                    <img src="./assets/images/phone.svg" alt>
+                                    <p class=" small-bold">Call Center</p>
+                                    <p class="small-para">Estamos para ayudarte
+                                        24/7 en el teléfono: 800 123 4567</p>
+                                </div>
                             </div>
-                          </div>
-                        </div>
-                        <div class="p-2 border rounded mb-2">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
-                            <div>
-                              <p class="para1">
-                                Accidentes Personales Colectivo
-                              </p>
-                              <p class="para2">
-                                Apoyo a empleados ante incidentes inesperados,
-                                dentro y fuera del trabajo.
-                              </p>
+                            <div
+                                class="tool-container col-lg-3 col-md-4 col-sm-6">
+                                <div
+                                    class="d-flex flex-column gap-2 inner-container text-center">
+                                    <img src="./assets/images/badge.svg" alt>
+                                    <p class=" small-bold">Red de
+                                        Proveedores</p>
+                                    <p class="small-para">Consulta hospitales y
+                                        especialistas de tu plan.</p>
+                                </div>
                             </div>
-                          </div>
-                        </div>
-                        <div class="p-2 border rounded">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
-                            <div>
-                              <p class="para1">Accidentes Personales Escolar</p>
-                              <p class="para2">
-                                Seguridad para niñas, niños y jóvenes en sus
-                                actividades escolares y deportivas.
-                              </p>
+                            <div
+                                class="tool-container col-lg-3 col-md-4 col-sm-6">
+                                <div
+                                    class="d-flex flex-column gap-2 inner-container text-center">
+                                    <img src="./assets/images/support.svg" alt>
+                                    <p class=" small-bold">Asistencias</p>
+                                    <p class="small-para">Apoyos extra de tu
+                                        póliza: ambulancia, orientación y
+                                        más.</p>
+                                </div>
                             </div>
-                          </div>
+                            <div
+                                class="tool-container last col-lg-3 col-md-4 col-sm-6">
+                                <div
+                                    class="d-flex flex-column gap-2 inner-container text-center">
+                                    <img src="./assets/images/pdf.svg" alt>
+                                    <p class=" small-bold">Formatos PDF</p>
+                                    <p class="small-para">Encuentra formularios
+                                        para trámites, reembolsos y más.</p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div>
-                      <a href class="btn connect lh-1">Conocer más</a>
-                    </div>
-                  </div>
                 </div>
-              </div>
-              <!-- last  -->
-              <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12">
-                  <img
-                    src="./assets/images/person2.png"
-                    alt
-                    class="w-100 img-fluid"
-                  />
-                </div>
-                <div class="col-lg-6 col-md-12 py-3">
-                  <div class="gap-40 d-flex flex-column px-xl-5 py-4">
-                    <div class="gap-4 d-flex flex-column">
-                      <div>
-                        <img
-                          src="./assets/images/Standardized Benefits.svg"
-                          alt="icon"
-                          class="ins-icon"
-                        />
-                      </div>
-                      <div class="heading">
-                        <h2 class="fw-bold mb-0">
-                          Básicos
-                          <span class="head-color">Estandarizados</span>
-                        </h2>
-                      </div>
-                      <div class="gap-4 d-flex flex-column para-text">
-                        <div class="p-2 border rounded mb-2">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
-                            <div>
-                              <p class="para1">PBE Gastos Médicos</p>
-                              <p class="para2">
-                                Cobertura esencial con las condiciones que exige
-                                la normatividad mexicana.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="p-2 border rounded mb-2">
-                          <div class="d-flex gap-2">
-                            <img
-                              src="./assets/images/tick-circle.svg"
-                              alt="icon"
-                              class="tick"
-                            />
-                            <div>
-                              <p class="para1">PBE Accidentes Personales</p>
-                              <p class="para2">
-                                Protección accesible ante eventos inesperados,
-                                de fácil contratación.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <a href class="btn connect lh-1">Conocer más</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </section>
 
-      <!-- footer code  -->
-      <footer class="py-4 d-flex flex-column gap-2">
-        <div class="footer container my-3">
-          <div class="f-parent row">
-            <div class="col-lg-4 col-md-12 mb-lg-0 mb-3">
-              <img
-                class="f-logo"
-                src="./assets/images/footer-logo.png"
-                alt="footer logo"
-              />
-            </div>
-            <div
-              class="col-lg-4 col-md-6 d-flex flex-column gap-3 mb-md-0 mb-4"
-            >
-              <div>
-                <p class="quick">CONTACTO</p>
-              </div>
-              <div>
-                <div class="gap-3 d-flex flex-column">
-                  <div>
-                    <div class="d-flex gap-2">
-                      <img
-                        src="./assets/images/call.svg"
-                        alt="icon"
-                        class="f-tick"
-                      />
-                      <div>
-                        <p class="para3">800 123 4567</p>
-                      </div>
+            <!-- footer code  -->
+            <footer class="py-4 d-flex flex-column gap-2">
+                <div class="footer container my-3">
+                    <div class="f-parent row">
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-3">
+                            <img
+                                class="f-logo"
+                                src="./assets/images/footer-logo.png"
+                                alt="footer logo" />
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-6 d-flex flex-column gap-3 mb-md-0 mb-4">
+                            <div>
+                                <p class="quick">CONTACTO</p>
+                            </div>
+                            <div>
+                                <div class="gap-3 d-flex flex-column">
+                                    <div>
+                                        <div class="d-flex gap-2">
+                                            <img
+                                                src="./assets/images/call.svg"
+                                                alt="icon"
+                                                class="f-tick" />
+                                            <div>
+                                                <p class="para3">800 123
+                                                    4567</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex gap-2">
+                                            <img
+                                                src="./assets/images/sms.svg"
+                                                alt="icon"
+                                                class="f-tick" />
+                                            <div>
+                                                <p
+                                                    class="para3">contacto@plenti.mx</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex gap-2">
+                                            <img
+                                                src="./assets/images/location.svg"
+                                                alt="icon"
+                                                class="f-tick" />
+                                            <div>
+                                                <p class="para3">Puebla,
+                                                    Puebla</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 d-flex flex-column gap-4">
+                            <div>
+                                <p class="quick">QUICK LINKS</p>
+                            </div>
+                            <div class="gap-3 d-flex flex-column">
+                                <a href="#"
+                                    class="f-links text-decoration-none">Información
+                                    financiera</a>
+                                <a href="#"
+                                    class="f-links text-decoration-none">Aviso
+                                    de privacidad</a>
+                                <a href="#"
+                                    class="f-links text-decoration-none">Buró de
+                                    entidades financieras</a>
+                                <a href="#"
+                                    class="f-links text-decoration-none">Derechos
+                                    del asegurado</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div>
-                    <div class="d-flex gap-2">
-                      <img
-                        src="./assets/images/sms.svg"
-                        alt="icon"
-                        class="f-tick"
-                      />
-                      <div>
-                        <p class="para3">contacto@plenti.mx</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="d-flex gap-2">
-                      <img
-                        src="./assets/images/location.svg"
-                        alt="icon"
-                        class="f-tick"
-                      />
-                      <div>
-                        <p class="para3">Puebla, Puebla</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex flex-column gap-4">
-              <div>
-                <p class="quick">QUICK LINKS</p>
-              </div>
-              <div class="gap-3 d-flex flex-column">
-                <a href="#" class="f-links text-decoration-none"
-                  >Información financiera</a
-                >
-                <a href="#" class="f-links text-decoration-none"
-                  >Aviso de privacidad</a
-                >
-                <a href="#" class="f-links text-decoration-none"
-                  >Buró de entidades financieras</a
-                >
-                <a href="#" class="f-links text-decoration-none"
-                  >Derechos del asegurado</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="line container">
-          <hr />
-        </div>
-        <div class="copyright text-center">
-          <div class="container">
-            <p>Copyright © 2025 Plenit. Todos los derechos reservados</p>
-          </div>
-        </div>
-      </footer>
-    </main>
-    <!-- bootstrap js  -->
-    <script src="./assets/js/bootstrap.bundle.js"></script>
-  </body>
+                <div class="line container">
+                    <hr />
+                </div>
+                <div class="copyright text-center">
+                    <div class="container">
+                        <p>Copyright © 2025 Plenit. Todos los derechos
+                            reservados</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <!-- bootstrap js  -->
+        <script src="./assets/js/bootstrap.bundle.js"></script>
+    </body>
 </html>
